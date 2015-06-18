@@ -26,5 +26,8 @@
         <module name="jenkins-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jenkins-test" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
