@@ -1,3 +1,6 @@
+import java.lang.Override;
+import java.lang.String;
+
 public class Thing {
 
     private String name;
@@ -14,4 +17,8 @@ public class Thing {
         return this.name;
     }
 
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
